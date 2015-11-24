@@ -30,6 +30,15 @@
         <path refid="Strongback.userclasspath"/>
         <pathelement location="lib/junit-4.11.jar"/>
     </path>
+    <path id="run.compile.classpath">
+        <pathelement location="../../../junit/junit.4.12.jar"/>
+        <path refid="frc-strongback.classpath"/>
+    </path>
+    <path id="run.compile.bootclasspath">
+        <pathelement location="../../../junit/junit.4.12.jar"/>
+        <fileset dir="${java.home}/lib" includes="*.jar"/>
+        <fileset dir="${java.home}/lib/ext" includes="*.jar"/>
+    </path>
     <path id="run.test.classpath">
         <pathelement location="../../../junit/junit.4.12.jar"/>
         <pathelement location="${junit-travis}"/>
@@ -88,7 +97,10 @@
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="org.frc2706.example.robot.TimedDriveCommandTest" todir="${junit.output.dir}"/>
-            <classpath refid="frc-strongback.classpath"/>
+            <classpath refid="run.compile.classpath"/>
+            <bootclasspath>
+                <path refid="run.compile.bootclasspath"/>
+            </bootclasspath>
         </junit>
     </target>
     <target name="test">
