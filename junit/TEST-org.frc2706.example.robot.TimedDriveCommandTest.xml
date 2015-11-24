@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="FRC-VM" name="org.frc2706.example.robot.TimedDriveCommandTest" skipped="0" tests="1" time="0.0" timestamp="2015-11-24T04:12:45">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.IM_CONFIG_PHASE" value="1" />
+    <property name="env._LXSESSION_PID" value="1580" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.QT_IM_MODULE" value="ibus" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Linux" />
+    <property name="env.UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/1377" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
+    <property name="env.PWD" value="/home/frc/workspace/frc-strongback" />
+    <property name="env.LANG" value="en_CA.UTF-8" />
+    <property name="env.LESS" value="-R" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="env.XDG_MENU_PREFIX" value="lxde-" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="java.runtime.version" value="1.8.0_66-b17" />
+    <property name="env.GTK_IM_MODULE" value="ibus" />
+    <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/Lubuntu.default.path" />
+    <property name="env.UPSTART_EVENTS" value="started xsession" />
+    <property name="env.XDG_VTNR" value="7" />
+    <property name="env.DISPLAY" value=":0" />
+    <property name="user.name" value="frc" />
+    <property name="env.QT4_IM_MODULE" value="xim" />
+    <property name="env._" value="/usr/bin/ant" />
+    <property name="env.USER" value="frc" />
+    <property name="env.SHELL" value="/usr/bin/zsh" />
+    <property name="env.DESKTOP_SESSION" value="Lubuntu" />
+    <property name="env.XDG_DATA_DIRS" value="/etc/xdg/lubuntu:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/share/Lubuntu:/usr/local/share/:/usr/share/" />
+    <property name="env.NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat" />
+    <property name="env.PATH" value="/home/frc/strongback/java/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games" />
+    <property name="env.XDG_CURRENT_DESKTOP" value="LXDE" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64" />
+    <property name="env.TEXTDOMAIN" value="im-config" />
+    <property name="env.UPSTART_JOB" value="lxsession" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="wpilib" value="../../../wpilib/java/current/lib/WPILib.jar" />
+    <property name="env.SELINUX_INIT" value="YES" />
+    <property name="env.ROXTERM_PID" value="2057" />
+    <property name="ant.project.name" value="simple-arcade-drive" />
+    <property name="env.LC_CTYPE" value="en_CA.UTF-8" />
+    <property name="java.version" value="1.8.0_66" />
+    <property name="user.timezone" value="" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-d9fswa9fsw" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed" />
+    <property name="env.DERBY_HOME" value="/usr/lib/jvm/java-8-oracle/db" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="1" />
+    <property name="env.ROXTERM_NUM" value="3" />
+    <property name="ECLIPSE_HOME" value="../../../FRC/eclipse/" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="env.GDMSESSION" value="Lubuntu" />
+    <property name="user.country" value="CA" />
+    <property name="env.GNOME_KEYRING_PID" value="1375" />
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre" />
+    <property name="env.ZSH" value="/home/frc/.oh-my-zsh" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="frc" />
+    <property name="ant.file" value="/home/frc/workspace/frc-strongback/build.xml" />
+    <property name="os.version" value="3.13.0-68-generic" />
+    <property name="env.J2REDIR" value="/usr/lib/jvm/java-8-oracle/jre" />
+    <property name="env.SAL_USE_VCLPLUGIN" value="gtk" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.66-b17" />
+    <property name="env.UPSTART_INSTANCE" value="" />
+    <property name="env.TEXTDOMAINDIR" value="/usr/share/locale/" />
+    <property name="env.LANGUAGE" value="en_CA:en" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0" />
+    <property name="env.QT_QPA_PLATFORMTHEME" value="appmenu-qt5" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.SESSIONTYPE" value="lxsession" />
+    <property name="env.JAVA_HOME" value="/usr/lib/jvm/java-8-oracle" />
+    <property name="env.TERM" value="xterm" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="env.XMODIFIERS" value="@im=ibus" />
+    <property name="env.LSCOLORS" value="Gxfxcxdxbxegedabagacad" />
+    <property name="networktables" value="../../../wpilib/java/current/lib/NetworkTables.jar" />
+    <property name="env.GDM_LANG" value="en_CA" />
+    <property name="target" value="1.8" />
+    <property name="user.home" value="/home/frc" />
+    <property name="env.JOB" value="dbus" />
+    <property name="env.OLDPWD" value="/home/frc/workspace" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.WINDOWID" value="56623988" />
+    <property name="env.PAGER" value="less" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="env.XDG_SEAT" value="seat0" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on April 8 2014" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.frc2706.example.robot.TimedDriveCommandTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/frc/workspace/frc-strongback/junit/TEST-org.frc2706.example.robot.TimedDriveCommandTest.xml crashfile=/home/frc/workspace/frc-strongback/junitvmwatcher2860029397328243201.properties propsfile=/home/frc/workspace/frc-strongback/junit4272789162311498568.properties" />
+    <property name="java.class.path" value="/home/frc/workspace/frc-strongback/build/classes:/home/frc/workspace/frc-strongback/build/test-classes:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="env.XDG_SESSION_ID" value="c2" />
+    <property name="env.ROXTERM_ID" value="0xf12810" />
+    <property name="ant.file.type.simple-arcade-drive" value="file" />
+    <property name="env.XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="env.HOME" value="/home/frc" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring-Hbh3G2/ssh" />
+    <property name="env.XDG_CONFIG_HOME" value="/home/frc/.config" />
+    <property name="env.CLUTTER_IM_MODULE" value="xim" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.INSTANCE" value="" />
+    <property name="ant.file.simple-arcade-drive" value="/home/frc/workspace/frc-strongback/build.xml" />
+    <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="env.XAUTHORITY" value="/home/frc/.Xauthority" />
+    <property name="env.SESSION" value="Lubuntu" />
+    <property name="user.dir" value="/home/frc/workspace/frc-strongback" />
+    <property name="env.MANDATORY_PATH" value="/usr/share/gconf/Lubuntu.mandatory.path" />
+    <property name="env.J2SDKDIR" value="/usr/lib/jvm/java-8-oracle" />
+    <property name="env.GTK_MODULES" value="overlay-scrollbar" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/frc" />
+    <property name="basedir" value="/home/frc/workspace/frc-strongback" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="source" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.GPG_AGENT_INFO" value="/run/user/1000/keyring-Hbh3G2/gpg:0:1" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.GNOME_KEYRING_CONTROL" value="/run/user/1000/keyring-Hbh3G2" />
+    <property name="ant.project.invoked-targets" value="testsrc" />
+    <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/lubuntu:/etc/xdg/xdg-Lubuntu:/usr/share/upstart/xdg:/etc/xdg" />
+  </properties>
+  <error message="org/strongback/components/Motor" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/strongback/components/Motor
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+Caused by: java.lang.ClassNotFoundException: org.strongback.components.Motor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
