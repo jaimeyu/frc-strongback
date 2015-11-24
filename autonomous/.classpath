@@ -7,4 +7,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Strongback"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="lib" path="lib/junit-4.11.jar"/>
 </classpath>
