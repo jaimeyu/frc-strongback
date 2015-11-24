@@ -1,0 +1,12 @@
+machine:
+  # Version of ruby to use
+  java:
+    version:
+      oraclejdk8
+
+
+general:
+  artifacts:
+    - "autonomous/junit" # relative to the user's home directory
+
+
